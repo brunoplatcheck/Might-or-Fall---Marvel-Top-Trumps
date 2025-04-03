@@ -1,0 +1,43 @@
+<header>
+        <div class="logo-container">
+            <img src="https://i.postimg.cc/GpCxYmvc/title.png" alt="Marvel Logo" class="logo">
+            <h1 class="game-title marvel-font">MARVEL SUPER TRUNFO</h1>
+            <div class="menu-buttons">
+                <button id="new-game-btn" class="menu-btn">Novo Jogo</button>
+                <button id="restart-btn" class="menu-btn">Reiniciar</button>
+            </div>
+        </div>
+    </header>
+
+    <div class="game-container">
+        <div class="score-display">
+            <div class="score-box player-score">
+                <div class="score-label">HERÓIS</div>
+                <div id="player-score" class="score-value">0</div>
+            </div>
+            <div class="score-box computer-score">
+                <div class="score-label">VILÕES</div>
+                <div id="computer-score" class="score-value">0</div>
+            </div>
+        </div>
+
+        <div id="phase-message" class="phase-message marvel-font">Escolha uma carta da sua mão</div>
+
+        <div id="player-hand" class="cards-container"></div>
+
+        <div id="attribute-selection" class="attribute-selection">
+            <h3 class="marvel-font">ESCOLHA UM ATRIBUTO PARA COMPARAR</h3>
+            <div class="attribute-buttons"></div>
+        </div>
+
+        <div id="battle-display" class="battle-display">
+            <div class="battle-cards">
+                <div class="battle-card" id="player-battle-card"></div>
+                <div class="vs-circle marvel-font">VS</div>
+                <div class="battle-card" id="computer-battle-card"></div>
+            </div>
+            <div id="battle-result" class="battle-result marvel-font"></div>
+        </div>
+
+        <button id="next-round-btn" class="action-btn">Próxima Rodada</button>
+    </div>
